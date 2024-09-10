@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Alex</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Enrique Nina</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText">backend Developer</span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Backend developer with experience in C# and ASP.NET Core, passionate about building scalable and efficient solutions.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-imagee">
+            <div class="imagee">
+                <img src="assets/images/logoavatar(2).jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>
+                        Passionate about developing scalable web applications using C# and ASP.NET Core. With expertise in Entity Framework Core, I create interactive and efficient web experiences tailored to meet user needs.
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>C#</span>
+                        <span>Asp.Net</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>SqlServer</span>
+                        <span>Oracle</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+
+                <div class="project-box">
+                    <div class="project-box-header">
+                        <img src="assets/images/PatientApp.png" alt="Project Image">
+                    </div>
+                    <div class="project-box-content">
+                        <h3>Patient mgmt.</h3>
+                        <label>Web application built with ASP.NET Core MVC and Onion architecture to simplify medical practice management. Provides an intuitive dashboard for managing patients, doctors, appointments, and lab results, improving efficiency and organization of clinical processes.</label>
+
+                        <div class="project-box-buttons icon-buttons-group">
+                            <button>
+                                <img src="assets/images/icons8-c (2).svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-servidor-microsoft-sql.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-net-framework.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-bulma-io.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-azur.svg">
+                            </button>
+                        </div>
+
+                        <h2 style="font-size: 15px; font-weight: 500; margin-bottom: 10px; margin-top: 15px;">Tools & Technologies</h2>
+
+                        <div class="project-box-buttons text-buttons-group">
+                            <button class="text-button"><span>Entity Framework</span></button>
+                            <button class="text-button"><span>Bulma</span></button>
+                            <button class="text-button"><span>Identity</span></button>
+                        </div>
+
+                    </div>
+                    <div class="project-box-footer">
+                        <div class="project-box-footer-buttons">
+                            <a href="https://github.com/AlexanderNina06/PatientManager" target="_blank">
+                                <button>GitHub</button>
+                            </a>
+                            <a href="https://patientmgmtapp-brfvg0hpdqfef8fx.southcentralus-01.azurewebsites.net/" target="_blank">
+                                <button>Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <div class="project-box-header">
+                        <img src="assets/images/SpiceRackAPI.png" alt="Project Image">
+                    </div>
+                    <div class="project-box-content">
+                        <h3>SpiceRackAPI</h3>
+                        <label>Restaurant API built with ASP.NET Core, providing a robust backend for managing ingredients, dishes, tables, and orders. Features JWT authentication, Onion architecture, and Entity Framework.</label>
+
+                        <div class="project-box-buttons icon-buttons-group">
+                            <button>
+                                <img src="assets/images/icons8-c (2).svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-servidor-microsoft-sql.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-net-framework.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/swagger (2).svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-azur.svg">
+                            </button>
+                        </div>
+
+                        <h2 style="font-size: 15px; font-weight: 500; margin-bottom: 10px; margin-top: 15px;">Tools & Technologies</h2>
+
+                        <div class="project-box-buttons text-buttons-group">
+                            <button class="text-button"><span>Identity</span></button>
+                            <button class="text-button"><span>JWT</span></button>
+                            <button class="text-button"><span>AutoMapper</span></button>
+                            <button class="text-button"><span>Swagger UI</span></button>
+                            <button class="text-button"><span>Entity Framework</span></button>
+                        </div>
+
+                    </div>
+                    <div class="project-box-footer">
+                        <div class="project-box-footer-buttons">
+                            <a href="https://github.com/AlexanderNina06/SpiceRackAPI" target="_blank">
+                                <button>GitHub</button>
+                            </a>
+                            <a href="https://spicerack-e9c8e3f5bzb4dncd.southcentralus-01.azurewebsites.net/swagger/index.html" target="_blank">
+                                <button>Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <div class="project-box-header">
+                        <img src="assets/images/Screenshot 2024-09-10 000916.png" alt="Project Image">
+                    </div>
+                    <div class="project-box-content">
+                        <h3>CineSnippets</h3>
+                        <label>Mini-project. Stream your favorites!** CineSnippets is a web app built with ASP.NET Core MVC for managing and streaming series.</label>
+
+                        <div class="project-box-buttons icon-buttons-group">
+                            <button>
+                                <img src="assets/images/icons8-c (2).svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-servidor-microsoft-sql.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-net-framework.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-bulma-io.svg">
+                            </button>
+                            <button>
+                                <img src="assets/images/icons8-azur.svg">
+                            </button>
+                        </div>
+
+                        <h2 style="font-size: 15px; font-weight: 500; margin-bottom: 10px; margin-top: 15px;">Tools & Technologies</h2>
+
+                        <div class="project-box-buttons text-buttons-group">
+                            <button class="text-button"><span>Entity Framework</span></button>
+                            <button class="text-button"><span>Bulma</span></button>
+                        </div>
+
+                    </div>
+                    <div class="project-box-footer">
+                        <div class="project-box-footer-buttons">
+                            <a href="https://github.com/AlexanderNina06/CineSnippets" target="_blank">
+                                <button>GitHub</button>
+                            </a>
+                            <a href="https://cinesnippets-amdhcpeeh8fugzeg.southcentralus-01.azurewebsites.net/" target="_blank">
+                                <button>Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: alexandernina06@hotmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +1 829 728 1283</p>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Dominican Republic</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Enrique Nina .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
